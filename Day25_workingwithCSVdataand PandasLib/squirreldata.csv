@@ -1,0 +1,7 @@
+Primary Fur Color,Count
+Gray,2473
+Cinnamon,392
+Black,103
+# Using to_frame() keeps the colors as the index. If you open this in Excel, it will look correct
+, but in Python, the colors will behave as labels rather than a column.
+#we add the index if we want
