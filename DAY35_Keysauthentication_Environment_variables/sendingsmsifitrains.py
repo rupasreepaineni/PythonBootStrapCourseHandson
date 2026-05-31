@@ -7,8 +7,10 @@ import os
 LAT = 55.842073
 LON = -4.280899
 api_key = "05bfa4040b723bb3cf95852d9f8fe8ef"
-account_sid = "ACe28f23f80605528b4d81d2e9237b42f2"
+# account_sid = "ACe28f23f80605528b4d81d2e9237b42f2"
+TWILIO_ACCOUNT_SID = "ACe28f23f80605528b4d81d2e9237b42f2"
 auth_token = os.environ.get["auth_token"]
+account_sid = os.environ.get("TWILIO_ACCOUNT_SID")
 
 PARAMS = {
           "lat": LAT,
